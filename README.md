@@ -4,19 +4,23 @@ Project for CS 315 Computer Architecture
 Professor Gregory Benson, Fall 2019, University of San Francisco
 
 # DigitalProcessor
-Simulated Processor built in Digital that runs ARM Assembly code.
+Summary: Simulated Processor built in Digital that runs ARM Assembly code.
 
 ## How to run the program
 
 Download [Digital](https://github.com/hneemann/Digital)
 
-Download all the .dig and .hex files from the repository
+Download all the .dig and .hex files from the repository.
 
 Open processor.dig. This will open up the entire processor.
 
-To run each program, select the corresponding number from 0 to 6 under the PN (Program Number) button. Once selected, turn on the switch to run the program.
+To run each program, select the corresponding number from 0 to 6 under the PN (Program Number) button. Once selected, turn on the switch to run the program. See steps in the program for details.
 
 :warning: NOTE: To run a new program, you must stop running the experiment and re-run it to zero out the values. Otherwise the result of the new program will be added to the result of the old one.
+
+:exclamation: NOTE: You can change the frequency of the clock by right-clicking on it when the experiment is turned off. The default frequency is 5000. Note that #6 takes a while to run and complete at 5000 Frequency/Hz so a higher number is recommended for that program.
+
+View the expected setup of the processor [here](https://github.com/OrshiKozek/DigitalProcessor/blob/main/SampleProcessorImage.jpg).
 
 ## Programs and Outputs
 Program 0: Quadratic Equation where x = 2, a = 1, b = 2, c = 3. The result is 11.
