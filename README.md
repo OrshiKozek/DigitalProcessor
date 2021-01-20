@@ -1,6 +1,7 @@
 Author: Orshi Kozek
 
 Project for CS 315 Computer Architecture
+
 Professor Gregory Benson, Fall 2019, University of San Francisco
 
 # DigitalProcessor
@@ -8,7 +9,7 @@ Summary: Simulated Processor built in Digital that runs ARM Assembly code.
 
 ## How to run the program
 
-Download [Digital](https://github.com/hneemann/Digital)
+Download [Digital.](https://github.com/hneemann/Digital)
 
 Download all the .dig and .hex files from the repository.
 
